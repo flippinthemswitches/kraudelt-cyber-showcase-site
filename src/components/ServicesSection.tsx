@@ -1,4 +1,3 @@
-
 import { 
   ShieldAlert, 
   FileSearch, 
@@ -7,7 +6,6 @@ import {
   Lock, 
   BookOpen 
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const ServicesSection = () => {
   const services = [
@@ -74,12 +72,6 @@ const ServicesSection = () => {
               </p>
             </div>
           ))}
-        </div>
-
-        <div className="mt-16 text-center">
-          <Button className="bg-cyber-blue hover:bg-cyber-lightBlue text-white px-8 py-6 text-lg">
-            Request a Security Consultation
-          </Button>
         </div>
       </div>
     </section>

@@ -1,6 +1,5 @@
-
 import { Button } from "@/components/ui/button";
-import { Shield, ArrowRight, Download } from "lucide-react";
+import { Shield, Download } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -32,11 +31,6 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button className="bg-cyber-blue hover:bg-cyber-lightBlue text-white px-8 py-6">
-                Explore Services
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-              
               <Button variant="outline" className="border-cyber-blue text-cyber-blue hover:bg-cyber-blue/10 px-8 py-6">
                 Download Resume
                 <Download className="ml-2 h-4 w-4" />

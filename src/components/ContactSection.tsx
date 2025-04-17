@@ -1,8 +1,7 @@
 
-import { Mail, Phone, MapPin, ExternalLink } from "lucide-react";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
 
 const ContactSection = () => {
   return (
@@ -19,73 +18,7 @@ const ContactSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-          {/* Contact Information */}
-          <div className="space-y-8">
-            <div className="cyber-card p-8">
-              <h3 className="text-2xl font-bold mb-6">Contact Information</h3>
-              
-              <div className="space-y-6">
-                <div className="flex items-start">
-                  <div className="bg-cyber-blue/10 p-3 rounded-lg mr-4">
-                    <Mail className="h-6 w-6 text-cyber-blue" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Email</p>
-                    <a href="mailto:contact@kraudelt.com" className="text-lg hover:text-cyber-blue transition-colors">
-                      contact@kraudelt.com
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-cyber-blue/10 p-3 rounded-lg mr-4">
-                    <Phone className="h-6 w-6 text-cyber-blue" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Phone</p>
-                    <a href="tel:+15551234567" className="text-lg hover:text-cyber-blue transition-colors">
-                      +1 (555) 123-4567
-                    </a>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-cyber-blue/10 p-3 rounded-lg mr-4">
-                    <MapPin className="h-6 w-6 text-cyber-blue" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Location</p>
-                    <p className="text-lg">Remote & On-site Services Available</p>
-                  </div>
-                </div>
-                
-                <div className="flex items-start">
-                  <div className="bg-cyber-blue/10 p-3 rounded-lg mr-4">
-                    <ExternalLink className="h-6 w-6 text-cyber-blue" />
-                  </div>
-                  <div>
-                    <p className="text-sm text-muted-foreground mb-1">Website</p>
-                    <a href="https://kraudelt.com" target="_blank" rel="noopener noreferrer" className="text-lg hover:text-cyber-blue transition-colors">
-                      kraudelt.com
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-            <div className="cyber-card p-8">
-              <h3 className="text-2xl font-bold mb-4">Security Emergency?</h3>
-              <p className="text-muted-foreground mb-6">
-                For urgent security incidents requiring immediate assistance, please use our priority response line.
-              </p>
-              <Button className="w-full bg-cyber-blue hover:bg-cyber-lightBlue text-white">
-                Priority Response Line
-              </Button>
-            </div>
-          </div>
-
-          {/* Contact Form */}
+        <div className="max-w-2xl mx-auto">
           <div className="cyber-card p-8">
             <h3 className="text-2xl font-bold mb-6">Send a Message</h3>
             
