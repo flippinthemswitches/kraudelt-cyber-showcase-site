@@ -46,7 +46,7 @@ const Navbar = () => {
           <a href="#home" className="flex items-center gap-2">
             <Shield className="h-8 w-8 text-cyber-blue" />
             <span className="font-bold text-xl">
-              Kraudelt<span className="text-cyber-blue">.</span>
+              Kraudelt<span className="text-cyber-blue">.com</span>
             </span>
           </a>
 
