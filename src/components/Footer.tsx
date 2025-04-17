@@ -11,7 +11,7 @@ const Footer = () => {
           <div className="flex items-center mb-6 md:mb-0">
             <Shield className="h-8 w-8 text-cyber-blue mr-2" />
             <span className="font-bold text-xl">
-              Kraudelt<span className="text-cyber-blue">.</span>
+              Kraudelt<span className="text-cyber-blue">.com</span>
             </span>
           </div>
           
