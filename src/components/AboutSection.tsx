@@ -13,21 +13,15 @@ const AboutSection = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <p className="text-lg leading-relaxed">
-              Anthony Kraudelt is a seasoned cybersecurity professional with over 15 years of experience
-              in protecting critical infrastructure, implementing robust security frameworks, and advising
-              organizations on best practices to mitigate digital threats.
+              With experience working in information security, including almost two decades with the Federal Bureau of Investigation in the fields of investigative cybersecurity and risk assessment, I’ve excelled at triaging, investigating and securing high-tech systems emerging cyber threats.      
             </p>
             
             <p className="text-lg leading-relaxed">
-              With a strong background in information security, risk management, and compliance, Anthony has
-              helped numerous organizations strengthen their security posture while balancing operational needs
-              and business objectives.
+               My training and experience have allowed me to stay on the cutting edge of technology; combating new threats and implementing successful techniques to mitigate and resolve complex cyber matters.
             </p>
 
             <p className="text-lg leading-relaxed">
-              His expertise spans across vulnerability assessment, penetration testing, security architecture,
-              and strategic security planning, making him a versatile and valuable asset to any organization
-              seeking to enhance their cybersecurity capabilities.
+              I believe in the importance of team building, the ability to foster a positive working environment and bringing out the best in the people around me. I’m a lifelong learner, with a goal of continuously improving myself and passing knowledge to colleagues and the communities I serve.
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
