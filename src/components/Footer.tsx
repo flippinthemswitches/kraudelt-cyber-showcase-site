@@ -1,5 +1,5 @@
 
-import { Shield, Linkedin, Twitter, Mail, GitHub } from "lucide-react";
+import { Shield, Linkedin, Twitter, Mail, Github } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -42,7 +42,7 @@ const Footer = () => {
               className="bg-card p-2 rounded-full border border-cyber-blue/20 hover:border-cyber-blue transition-all"
               aria-label="GitHub"
             >
-              <GitHub className="h-5 w-5 text-cyber-blue" />
+              <Github className="h-5 w-5 text-cyber-blue" />
             </a>
           </div>
         </div>
