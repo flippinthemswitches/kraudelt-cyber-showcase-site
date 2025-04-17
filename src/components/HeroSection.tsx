@@ -31,7 +31,16 @@ const HeroSection = () => {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <Button variant="outline" className="border-cyber-blue text-cyber-blue hover:bg-cyber-blue/10 px-8 py-6">
+              <Button 
+                variant="outline" 
+                className="border-cyber-blue text-cyber-blue hover:bg-cyber-blue/10 px-8 py-6"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = '/Kraudelt_CV.pdf';
+                  link.download = 'Kraudelt_CV.pdf';
+                  link.click();
+                }}
+              >
                 Download Resume
                 <Download className="ml-2 h-4 w-4" />
               </Button>
