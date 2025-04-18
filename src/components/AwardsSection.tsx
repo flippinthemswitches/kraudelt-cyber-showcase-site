@@ -5,22 +5,34 @@ import { Trophy } from "lucide-react";
 const AwardsSection = () => {
   const awards = [
     {
-      title: "Cybersecurity Excellence Award",
-      organization: "Global Security Alliance",
-      year: "2023",
-      description: "Recognition for outstanding contributions to network security"
+      title: "Officer of the Year",
+      organization: "Exchange Club of Saginaw",
+      year: "2022 & 2015",
+      description: "The Exchange Club of Saginaw acknowledges work done by members of law enforcement and emergency responders through their Officer of the Year award. Each year one individual is selected as their agency's "Officer of the Year" based on their work and interactions with the communities they serve."
     },
     {
-      title: "Security Innovation Award",
-      organization: "Tech Security Forum",
-      year: "2022",
-      description: "For developing novel security protocols"
+      title: "Citation of Special Achievement for Outstanding Performance",
+      organization: "FBI",
+      year: "2018",
+      description: "Employees of the FBI who receive year over year outstanding or greater performance reviews are acknowledged with the Citation of Special Achievement for Outstanding Performance.s"
     },
     {
-      title: "Distinguished Security Professional",
-      organization: "CyberSec Institute",
-      year: "2021",
-      description: "Excellence in security leadership and innovation"
+      title: "Director’s Medal of Excellence",
+      organization: "FBI",
+      year: "2017",
+      description: "This award offers the Director the opportunity to recognize FBI employees who make positive contributions to the community for their outstanding contributions and exceptional service to the FBI and its mission. The Director’s Award is considered the most prestigious within the FBI."
+    }
+      {
+      title: "Certificate of Appreciation for Outstanding Performance",
+      organization: "Department of Justice (DOJ)",
+      year: "2014",
+      description: "The Department of Justice (DOJ) uses the Certificate of Appreciation for Outstanding Performance to acknowledge those individuals whose work made significant impacts in criminal prosecutions."
+    }
+      {
+      title: "Certificate for Superior Performance as a Digital Forensic Examinere",
+      organization: "FBIJ)",
+      year: "2011",
+      description: "I was recognized for my work as a Digital Forensic Examiner with the FBI. This honor included an acknowledgement that I duplicated and forensically examined the highest volume of data of any examiner in the FBI."
     }
   ];
 
