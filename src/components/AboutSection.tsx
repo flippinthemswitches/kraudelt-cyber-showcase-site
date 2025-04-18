@@ -38,7 +38,7 @@ const AboutSection = () => {
               <ShieldCheck className="mb-4 h-10 w-10 text-cyber-blue" />
               <h3 className="text-xl font-semibold mb-2">Certified Expert</h3>
               <p className="text-muted-foreground">
-                Holding top industry certifications including ISC2's CISSP, AWS, and GIAC, validating expert knowledge in cybersecurity.
+                Holding top industry certifications including those ISC2's CISSP, AWS, and GIAC, validating expert knowledge in cybersecurity.
               </p>
             </div>
 
@@ -46,7 +46,7 @@ const AboutSection = () => {
               <Briefcase className="mb-4 h-10 w-10 text-cyber-blue" />
               <h3 className="text-xl font-semibold mb-2">Industry Experience</h3>
               <p className="text-muted-foreground">
-                25+ years working with enterprises, government agencies, and financial institutions on critical security initiatives.
+                25+ years working with enterprises, government agencies, and small to medium businees on critical security initiatives.
               </p>
             </div>
 
@@ -54,7 +54,7 @@ const AboutSection = () => {
               <GraduationCap className="mb-4 h-10 w-10 text-cyber-blue" />
               <h3 className="text-xl font-semibold mb-2">Advanced Education</h3>
               <p className="text-muted-foreground">
-                Master's degree in Cybersecurity and continuous professional development to stay ahead of emerging threats.
+                Master's degree and advanced an graduate certificate in Cybersecurity, demonstrating continuous professional development to stay ahead of emerging threats.
               </p>
             </div>
 
