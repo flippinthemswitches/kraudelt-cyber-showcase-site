@@ -11,21 +11,27 @@ const ExperienceSection = () => {
     },
     {
       period: "January 2006 - January 20120",
-      title: "Special Agent / Digital Forensic Examinert",
+      title: "Special Agent / Digital Forensic Examiner",
       company: "Federal Bureau of Investigation (FBI",
       description: "As an FBI Computer Analysis Response Team (C.A.R.T) digital forensic examiner, I conducted comprehensive forensic examinations which led to the successful criminal investigations.",
     },
     {
-      period: "2012 - 2016",
-      title: "Senior Security Analyst",
-      company: "Cybershield Defense",
-      description: "Conducted vulnerability assessments and penetration tests for enterprise clients. Led incident response activities and implemented security monitoring solutions.",
+      period: "February 2005 - December 2005",
+      title: "Network Security Specialist",
+      company: "Thomson Gale",
+      description: "As a system engineer for Thomson Gale, I was tasked with the maintenance and upgrade of Microsoft Windows servers and the consolidation of a traditional server infrastructure to a virtualized VMWare solution."
     },
     {
-      period: "2008 - 2012",
-      title: "Network Security Specialist",
-      company: "DataGuard Inc.",
-      description: "Managed network security infrastructure including firewalls, IDS/IPS, and VPNs. Performed security audits and recommended improvements to security posture.",
+      period: "September 2004 - February 2005",
+      title: "Microsoft Windows System Engineer",
+      company: "Amorphous Network Security",
+      description: "I founded Amorphous Network Security in 2004 specializing in the design and installation of secured computer networks. While leading Amorphous Network Security, I worked to enhance my network and computer security skills and increase my knowledge of Cisco based networks.",
+    },
+    {
+      period: "July 2000 - December 200",
+      title: "Network Engineer",
+      company: "AlixPartners, LLC",
+      description: "The job requirements included the design, implementation and securing of telephone systems, networks, end user devices and the company’s data center infrastructure. I led the design and technical build out of offices located in Germany, Italy and the United Kingdom.",
     },
   ];
 
