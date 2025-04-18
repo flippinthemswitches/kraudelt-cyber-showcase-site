@@ -47,8 +47,8 @@ const Navbar = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <a href="#home" className="flex items-center gap-2">
-            <Shield className="h-8 w-8 text-cyber-blue" />
-            <span className="font-bold text-xl">
+            <Shield className="h-6 w-6 text-cyber-blue" /> {/* Reduced icon size */}
+            <span className="font-bold text-base"> {/* Reduced from text-xl to text-base */}
               Kraudelt<span className="text-cyber-blue">.com</span>
             </span>
           </a>
@@ -59,22 +59,22 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="font-medium text-muted-foreground hover:text-cyber-blue transition-colors"
+                className="font-medium text-sm text-muted-foreground hover:text-cyber-blue transition-colors" // Reduced from text-base to text-sm
               >
                 {link.name}
               </a>
             ))}
-            <Button className="bg-cyber-blue hover:bg-cyber-lightBlue text-white">
-              Get in Touch <ChevronRight className="ml-2 h-4 w-4" />
+            <Button className="bg-cyber-blue hover:bg-cyber-lightBlue text-white text-sm"> {/* Reduced button text size */}
+              Get in Touch <ChevronRight className="ml-1 h-3 w-3" /> {/* Reduced chevron icon size */}
             </Button>
           </div>
 
           {/* Mobile Menu Button */}
           <button className="md:hidden" onClick={toggleMenu}>
             {isMenuOpen ? (
-              <X className="h-6 w-6 text-foreground" />
+              <X className="h-5 w-5 text-foreground" /> {/* Reduced icon size */}
             ) : (
-              <Menu className="h-6 w-6 text-foreground" />
+              <Menu className="h-5 w-5 text-foreground" /> {/* Reduced icon size */}
             )}
           </button>
         </div>
@@ -92,13 +92,13 @@ const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
-              className="font-medium py-2 text-muted-foreground hover:text-cyber-blue transition-colors"
+              className="font-medium py-2 text-sm text-muted-foreground hover:text-cyber-blue transition-colors" // Reduced from text-base to text-sm
               onClick={() => setIsMenuOpen(false)}
             >
               {link.name}
             </a>
           ))}
-          <Button className="bg-cyber-blue hover:bg-cyber-lightBlue text-white w-full mt-4">
+          <Button className="bg-cyber-blue hover:bg-cyber-lightBlue text-white w-full mt-4 text-sm"> {/* Reduced button text size */}
             Get in Touch
           </Button>
         </div>
