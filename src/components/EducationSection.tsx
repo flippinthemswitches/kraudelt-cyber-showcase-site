@@ -15,6 +15,18 @@ const EducationSection = () => {
       institution: "State University",
       year: "2018",
       description: "Focus on Software Engineering and Information Security"
+    },
+    {
+      degree: "Advanced Certification in Artificial Intelligence",
+      institution: "AI Institute of Innovation",
+      year: "2022",
+      description: "Deep Learning and Machine Learning Specialization"
+    },
+    {
+      degree: "Professional Diploma in Ethical Hacking",
+      institution: "Cyber Defense Academy",
+      year: "2021",
+      description: "Advanced Penetration Testing and Cybersecurity Strategies"
     }
   ];
 
@@ -45,3 +57,4 @@ const EducationSection = () => {
 };
 
 export default EducationSection;
+
