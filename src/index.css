@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 
 @tailwind base;
@@ -43,7 +44,7 @@
 
   body {
     @apply bg-background text-foreground font-sans relative;
-    background-image: url('/lovable-uploads/1340a446-39eb-426d-8b29-cb8641d8a670.png');
+    background-image: url('https://images.unsplash.com/photo-1482938289607-e9573fc25ebb');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
