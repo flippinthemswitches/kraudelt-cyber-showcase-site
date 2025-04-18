@@ -62,7 +62,7 @@ const Footer = () => {
               About
             </a>
             <a href="#services" className="text-muted-foreground hover:text-cyber-blue transition-colors">
-              Services
+              Security
             </a>
             <a href="#experience" className="text-muted-foreground hover:text-cyber-blue transition-colors">
               Experience
