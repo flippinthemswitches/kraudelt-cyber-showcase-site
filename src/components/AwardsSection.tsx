@@ -17,19 +17,19 @@ const AwardsSection = () => {
       description: "Employees who receive year over year outstanding performance reviews are acknowledged for their performance."
     },
     {
-      title: "Director’s Medal of Excellence",
+      title: "Director's Medal of Excellence",
       organization: "FBI",
       year: "2017",
-      description: "This award offers the Director the opportunity to recognize FBI employees who make oustanding contributions to the community."
-    }
-      {
+      description: "This award offers the Director the opportunity to recognize FBI employees who make outstanding contributions to the community."
+    },
+    {
       title: "Certificate of Appreciation for Outstanding Performance",
       organization: "Department of Justice (DOJ)",
       year: "2014",
       description: "The Department of Justice acknowledges those individuals whose work made significant impacts in criminal prosecutions."
-    }
-      {
-      title: "Certificate for Superior Performance as a Digital Forensic Examinere",
+    },
+    {
+      title: "Certificate for Superior Performance as a Digital Forensic Examiner",
       organization: "FBI",
       year: "2011",
       description: "This honor acknowledges I had duplicated and forensically examined the highest volume of data of any examiner within the FBI."
