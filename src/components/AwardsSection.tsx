@@ -8,13 +8,13 @@ const AwardsSection = () => {
       title: "Officer of the Year",
       organization: "Exchange Club of Saginaw",
       year: "2022 & 2015",
-      description: "The Exchange Club of Saginaw acknowledges work done by members of law enforcement through their Officer of the Year award."
+      description: "The Exchange Club of Saginaw acknowledges work done by law enforcement through their Officer of the Year award."
     },
     {
       title: "Citation of Special Achievement for Outstanding Performance",
       organization: "FBI",
       year: "2018",
-      description: "Employees of the FBI who receive year over year outstanding performance reviews are acknowledged with the Citation of Special Achievement for Outstanding Performance."
+      description: "Employees who receive year over year outstanding performance reviews are acknowledged for their performance."
     },
     {
       title: "Director’s Medal of Excellence",
@@ -26,13 +26,13 @@ const AwardsSection = () => {
       title: "Certificate of Appreciation for Outstanding Performance",
       organization: "Department of Justice (DOJ)",
       year: "2014",
-      description: "The Department of Justice uses the Certificate of Appreciation for Outstanding Performance to acknowledge those individuals whose work made significant impacts in criminal prosecutions."
+      description: "The Department of Justice acknowledges those individuals whose work made significant impacts in criminal prosecutions."
     }
       {
       title: "Certificate for Superior Performance as a Digital Forensic Examinere",
       organization: "FBI",
       year: "2011",
-      description: "This honor included an acknowledgement that I duplicated and forensically examined the highest volume of data of any examiner within the FBI."
+      description: "This honor acknowledges I had duplicated and forensically examined the highest volume of data of any examiner within the FBI."
     }
   ];
 
