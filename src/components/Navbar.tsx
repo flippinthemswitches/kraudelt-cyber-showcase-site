@@ -53,9 +53,9 @@ const Navbar = () => {
             </span>
           </a>
 
-         // {/* Desktop Navigation */}
-         // <div className="hidden md:flex items-center space-x-8">
-         //   {navLinks.map((link) => (
+          {/* Desktop Navigation */}
+          <div className="hidden md:flex items-center space-x-8">
+            {navLinks.map((link) => (
         //    <a
             //    key={link.name}
             //    href={link.href}
