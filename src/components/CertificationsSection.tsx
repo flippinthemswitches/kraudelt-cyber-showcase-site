@@ -21,6 +21,36 @@ const CertificationsSection = () => {
       issuer: "CompTIA",
       date: "2022",
       id: "11223"
+    },
+    {
+      name: "GIAC Security Essentials (GSEC)",
+      issuer: "GIAC",
+      date: "2023",
+      id: "33445"
+    },
+    {
+      name: "Offensive Security Certified Professional (OSCP)",
+      issuer: "Offensive Security",
+      date: "2024",
+      id: "55667"
+    },
+    {
+      name: "Certified Cloud Security Professional (CCSP)",
+      issuer: "ISC²",
+      date: "2023",
+      id: "77889"
+    },
+    {
+      name: "CISA - Certified Information Systems Auditor",
+      issuer: "ISACA",
+      date: "2024",
+      id: "99001"
+    },
+    {
+      name: "AWS Certified Security - Specialty",
+      issuer: "Amazon Web Services",
+      date: "2023",
+      id: "11234"
     }
   ];
 
@@ -32,7 +62,7 @@ const CertificationsSection = () => {
           <h2 className="text-3xl font-bold">Professional Certifications</h2>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {certifications.map((cert) => (
             <Card key={cert.id} className="cyber-card">
               <CardContent className="p-6">
@@ -51,3 +81,4 @@ const CertificationsSection = () => {
 };
 
 export default CertificationsSection;
+
