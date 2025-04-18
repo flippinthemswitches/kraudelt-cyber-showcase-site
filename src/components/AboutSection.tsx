@@ -38,7 +38,7 @@ const AboutSection = () => {
               <ShieldCheck className="mb-4 h-10 w-10 text-cyber-blue" />
               <h3 className="text-xl font-semibold mb-2">Certified Expert</h3>
               <p className="text-muted-foreground">
-                Holding top industry certifications including CISSP, CEH, and CISM, validating expert knowledge in cybersecurity.
+                Holding top industry certifications including ISC2's CISSP, AWS, and GIAC, validating expert knowledge in cybersecurity.
               </p>
             </div>
 
@@ -46,7 +46,7 @@ const AboutSection = () => {
               <Briefcase className="mb-4 h-10 w-10 text-cyber-blue" />
               <h3 className="text-xl font-semibold mb-2">Industry Experience</h3>
               <p className="text-muted-foreground">
-                15+ years working with enterprises, government agencies, and financial institutions on critical security initiatives.
+                25+ years working with enterprises, government agencies, and financial institutions on critical security initiatives.
               </p>
             </div>
 
@@ -62,7 +62,7 @@ const AboutSection = () => {
               <Trophy className="mb-4 h-10 w-10 text-cyber-blue" />
               <h3 className="text-xl font-semibold mb-2">Proven Results</h3>
               <p className="text-muted-foreground">
-                Successfully prevented and mitigated numerous cyber attacks, saving organizations millions in potential damages.
+                Successfully identifying, prevented and mitigated numerous cyber attacks.
               </p>
             </div>
           </div>
