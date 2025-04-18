@@ -53,17 +53,17 @@ const Navbar = () => {
             </span>
           </a>
 
-          {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            {navLinks.map((link) => (
-              <a
-                key={link.name}
-                href={link.href}
-                className="font-medium text-muted-foreground hover:text-cyber-blue transition-colors"
-              >
-                {link.name}
-              </a>
-            ))}
+         // {/* Desktop Navigation */}
+         // <div className="hidden md:flex items-center space-x-8">
+         //   {navLinks.map((link) => (
+        //    <a
+            //    key={link.name}
+            //    href={link.href}
+          //      className="font-medium text-muted-foreground hover:text-cyber-blue transition-colors"
+         //     >
+        //        {link.name}
+        //      </a>
+       //     ))}
             <Button className="bg-cyber-blue hover:bg-cyber-lightBlue text-white">
               Get in Touch <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
