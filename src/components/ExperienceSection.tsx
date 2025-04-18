@@ -4,10 +4,10 @@ import { Briefcase, Calendar } from "lucide-react";
 const ExperienceSection = () => {
   const experiences = [
     {
-      period: "2020 - Present",
-      title: "Chief Information Security Officer",
-      company: "TechSecure Solutions",
-      description: "Lead the development and implementation of information security strategies to protect the organization's digital assets. Oversee a team of security professionals and manage the security operations center.",
+      period: "January 2006 - Present",
+      title: "Special Agent",
+      company: "Federal Bureau of Investigation (FBI)",
+      description: "Throughout my career as a special agent I’ve consistently approached my role as one of service, rather than one of authority. That service has been acknowledged by my receipt of numerous awards to include the FBI Director's Medal of Excellence, DOJ’s Certificate for Outstanding Performance, consistent yearly high-performance appraisals and having been awarded "Officer of the Year" on two separate occasions by the Exchange Club of Saginaw.      My focus on complex, high-tech cyber threats has afforded me the ability to grow my understanding of emerging trends in the information technology field. Whether an assignment was requested or assigned, it has always been important to me that the work be done correctly. I approach new challenges as an opportunity to learn and build new skills.  Through the duration of both my professional and personal life, I've demonstrated a desire to improve my knowledge through formal educational opportunities, training courses and advanced industry certifications. My goal is to be a positive example to my colleagues, the public and most importantly my family.  I have advanced experience in incident response, threat management, and community relations. As a senior employee on my team, I’m entrusted to train and mentor employees on proper investigative techniques, as well as compliance with ever changing laws and regulations.     During my career I've been fortunate to serve in a position as a field agent, a principal and acting supervisor, crisis negotiator and digital forensics examiner; all of which have served to further the mission of my employer.",
     },
     {
       period: "2016 - 2020",
