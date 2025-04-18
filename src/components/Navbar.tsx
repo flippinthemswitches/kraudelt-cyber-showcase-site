@@ -59,7 +59,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="font-medium text-sm text-muted-foreground hover:text-cyber-blue transition-colors" // Reduced from text-base to text-sm
+                className="font-medium text-sm text-muted-foreground hover:text-cyber-blue transition-colors" /* Reduced from text-base to text-sm */
               >
                 {link.name}
               </a>
@@ -92,7 +92,7 @@ const Navbar = () => {
             <a
               key={link.name}
               href={link.href}
-              className="font-medium py-2 text-sm text-muted-foreground hover:text-cyber-blue transition-colors" // Reduced from text-base to text-sm
+              className="font-medium py-2 text-sm text-muted-foreground hover:text-cyber-blue transition-colors" /* Reduced from text-base to text-sm */
               onClick={() => setIsMenuOpen(false)}
             >
               {link.name}
