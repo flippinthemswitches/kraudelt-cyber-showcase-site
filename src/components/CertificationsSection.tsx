@@ -6,50 +6,50 @@ const CertificationsSection = () => {
   const certifications = [
     {
       name: "Certified Information Systems Security Professional (CISSP)",
-      issuer: "ISC²",
-      date: "2024",
+      issuer: "ISC2",
+      date: "2020",
       id: "12345"
     },
     {
-      name: "Certified Ethical Hacker (CEH)",
-      issuer: "EC-Council",
-      date: "2023",
+      name: "National Crisis Negotiator Certification & Certified Adjunct Professor",
+      issuer: "FBI",
+      date: "2018 & 2023",
       id: "67890"
     },
     {
-      name: "CompTIA Security+",
+      name: "Linux +, Security +, Network +, A+, Cloud +",
       issuer: "CompTIA",
-      date: "2022",
+      date: "2004 - 2021",
       id: "11223"
     },
     {
-      name: "GIAC Security Essentials (GSEC)",
+      name: "Continuous Monitoring (GMON), Security Operations (GSOC), Defensible Security Architecture (GDSA) & Cloud Threat Detection (GCTD)",
       issuer: "GIAC",
-      date: "2023",
+      date: "2022 - 2023",
       id: "33445"
     },
     {
-      name: "Offensive Security Certified Professional (OSCP)",
-      issuer: "Offensive Security",
-      date: "2024",
+      name: "Ethical Hacker & Cyber Threat Management",
+      issuer: "Cisco",
+      date: "2024 & 2025",
       id: "55667"
     },
     {
-      name: "Certified Cloud Security Professional (CCSP)",
-      issuer: "ISC²",
-      date: "2023",
+      name: "Artificial Intelligence Fundamental",
+      issuer: "IBM",
+      date: "2024",
       id: "77889"
     },
     {
-      name: "CISA - Certified Information Systems Auditor",
-      issuer: "ISACA",
-      date: "2024",
+      name: "Part 107 Drone Certification",
+      issuer: "FAA",
+      date: "2022",
       id: "99001"
     },
     {
-      name: "AWS Certified Security - Specialty",
+      name: "Cloud Practitioner Certification",
       issuer: "Amazon Web Services",
-      date: "2023",
+      date: "2021",
       id: "11234"
     }
   ];
