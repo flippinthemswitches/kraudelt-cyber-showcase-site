@@ -28,7 +28,7 @@ const ExperienceSection = () => {
       description: "I founded Amorphous Network Security in 2004 specializing in the design and installation of secured computer networks. While leading Amorphous Network Security, I worked to enhance my network and computer security skills and increase my knowledge of Cisco based networks.",
     },
     {
-      period: "July 2000 - December 200",
+      period: "July 2000 - December 2004",
       title: "Network Engineer",
       company: "AlixPartners, LLC",
       description: "The job requirements included the design, implementation and securing of telephone systems, networks, end user devices and the company’s data center infrastructure. I led the design and technical build out of offices located in Germany, Italy and the United Kingdom.",
