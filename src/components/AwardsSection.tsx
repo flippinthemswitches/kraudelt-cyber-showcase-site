@@ -8,31 +8,31 @@ const AwardsSection = () => {
       title: "Officer of the Year",
       organization: "Exchange Club of Saginaw",
       year: "2022 & 2015",
-      description: "The Exchange Club of Saginaw acknowledges work done by members of law enforcement and emergency responders through their Officer of the Year award. Each year one individual is selected as their agency's "Officer of the Year" based on their work and interactions with the communities they serve."
+      description: "The Exchange Club of Saginaw acknowledges work done by members of law enforcement through their Officer of the Year award."
     },
     {
       title: "Citation of Special Achievement for Outstanding Performance",
       organization: "FBI",
       year: "2018",
-      description: "Employees of the FBI who receive year over year outstanding or greater performance reviews are acknowledged with the Citation of Special Achievement for Outstanding Performance.s"
+      description: "Employees of the FBI who receive year over year outstanding performance reviews are acknowledged with the Citation of Special Achievement for Outstanding Performance."
     },
     {
       title: "Director’s Medal of Excellence",
       organization: "FBI",
       year: "2017",
-      description: "This award offers the Director the opportunity to recognize FBI employees who make positive contributions to the community for their outstanding contributions and exceptional service to the FBI and its mission. The Director’s Award is considered the most prestigious within the FBI."
+      description: "This award offers the Director the opportunity to recognize FBI employees who make oustanding contributions to the community."
     }
       {
       title: "Certificate of Appreciation for Outstanding Performance",
       organization: "Department of Justice (DOJ)",
       year: "2014",
-      description: "The Department of Justice (DOJ) uses the Certificate of Appreciation for Outstanding Performance to acknowledge those individuals whose work made significant impacts in criminal prosecutions."
+      description: "The Department of Justice uses the Certificate of Appreciation for Outstanding Performance to acknowledge those individuals whose work made significant impacts in criminal prosecutions."
     }
       {
       title: "Certificate for Superior Performance as a Digital Forensic Examinere",
-      organization: "FBIJ)",
+      organization: "FBI",
       year: "2011",
-      description: "I was recognized for my work as a Digital Forensic Examiner with the FBI. This honor included an acknowledgement that I duplicated and forensically examined the highest volume of data of any examiner in the FBI."
+      description: "This honor included an acknowledgement that I duplicated and forensically examined the highest volume of data of any examiner within the FBI."
     }
   ];
 
