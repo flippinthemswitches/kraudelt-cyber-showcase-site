@@ -46,11 +46,11 @@ const ServicesSection = () => {
       <div className="container mx-auto">
         <div className="mb-16 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Security <span className="cyber-text-gradient">Services</span>
+            Security <span className="cyber-text-gradient">By Design</span>
           </h2>
           <div className="h-1 w-20 bg-cyber-blue mx-auto mb-6"></div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Comprehensive cybersecurity services designed to protect your assets, 
+            Comprehensive cybersecurity designed to protect your assets, 
             minimize risks, and strengthen your overall security posture.
           </p>
         </div>
